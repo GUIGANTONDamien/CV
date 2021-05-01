@@ -15,6 +15,13 @@ a:hover {
   color: white;
 }
 
+.link-wild {
+  color: #585c68;
+}
+.link-wild:hover {
+  color: #b1eaff;
+}
+
 .img-lang {
   width: 40px;
   margin-right: 50px;
@@ -254,4 +261,37 @@ body {
 
 .fab .fa-html5 {
   font-size: xx-large;
+}
+
+/***************** PROJET **************/
+
+.projets {
+  display: flex;
+  width: 100%;
+}
+
+.projets p {
+  text-align: center;
+}
+
+.img-projet {
+  width: 90%;
+  margin: 5px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.img-projet {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.img-projet:hover {
+  -webkit-transform: scale(1.25); /* Safari et Chrome */
+  -moz-transform: scale(1.25); /* Firefox */
+  -ms-transform: scale(1.25); /* Internet Explorer 9 */
+  -o-transform: scale(1.25); /* Opera */
+  transform: scale(1.25);
 }
